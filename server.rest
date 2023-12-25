@@ -1,2 +1,2 @@
 ###
-POST http://43.205.159.209/whatsapp
+get https://shivam-gupta.tech/whatsapp
