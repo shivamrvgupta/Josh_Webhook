@@ -1,6 +1,6 @@
 const fs = require("fs");
 const myConsole = new console.Console(fs.createWriteStream("./logs.txt"));
-const verificationToken = process.env.accessToken;
+const verificationToken = "RTQWWTVHBDEJHJKIKIKNDS9090DS";
 const processMessage = require("../shared/processMessage");
 
 const VerifyToken = (req, res) => {

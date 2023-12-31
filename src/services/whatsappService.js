@@ -1,9 +1,9 @@
 const fs = require("fs");
 const myConsole = new console.Console(fs.createWriteStream("./logs.txt"));
 const https = require("https");
-const meta_id = process.env.META_ID;
-const version = process.env.META_API_VERSION;
-const token = process.env.META_ACCESS_TOKEN
+const meta_id = "155621414308796";
+const version = 'v17.0';
+const token = 'EAAVOmhbOBCABO2rCVnMTBszx09D7EvjJB0LqElbaAV6DFOreuZCcClJW56H0SZCPuU8cUPPMHO4SvdLnceO21k8lXyavt8FvZAsIjIZCMkkVMgrB9eMZBwv9Cze9ZByboRFIQxieXhzyD4twvY1VWfZAvZA1nl6Ti39ULMdUbmbE9DZBIVOAysPKtHx2G2WRtZAYCL0GrZByxo9ZBRDONzfZB7Qh8sVBlM2VDFQYe7DEZD';
 function SendMessageWhatsApp(data){
     
     const options = {
